@@ -1,0 +1,300 @@
+/*header  */
+.root {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 160px;
+  border: 2px solid #515a5a;
+  padding: 1%;
+  margin: 1% auto;
+  box-shadow: 8px 5px 5px #194848;
+}
+
+/*first child  */
+.childroot1 {
+  width: 50%;
+}
+
+/*second child  */
+.childroot2 {
+  width: 50%;
+  text-align: right;
+}
+
+/*logo*/
+img {
+  width: 30%;
+  height: 100%;
+}
+
+/*font size of header*/
+#font {
+font-size: 50px;
+}
+
+/*banner section  */
+.root1 {
+  width: 92%;
+  margin: 1% auto;
+}
+
+/*image of first division or banner*/
+.ludo {
+  width: 100%;
+  height: 600px;
+}
+
+/*Catogories*/
+.root3 {
+  width: 92%;
+  margin: 0% auto;
+  font-size: 30px;
+}
+
+/*second division*/
+.root2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  border: 2px solid #515a5a;
+  padding: 1%;
+  margin: 1% auto;
+}
+
+/*class of second divison*/
+.childroot3 {
+  width: 24%;
+  border: 2px solid #ffffff;
+  margin: 1% auto;
+  height: 500px;
+  text-align: center;
+  box-shadow: 2px 5px 5px #707b7c;
+  border-radius: 20px;
+  border-style: inset;
+}
+
+/*images of second divison*/
+.ludo1 {
+  width: 95%;
+  height: 70%;
+  padding-top: 5px;
+  margin: 1% 2%;
+  border-radius: 8px;
+}
+
+/*card button style*/
+.button {
+
+  font-size: 25px;
+  background-color: #070808;
+  border-radius: 15px;
+  color: #05f9f9;
+}
+
+/*conclusion section */
+footer {
+  background: #000404;
+  width: 90%;
+  padding: 1%;
+  margin: 1% auto;
+}
+
+/*text of footer section*/
+.done1 {
+  text-align: center;
+  color: #d5f5f5;
+  font-size: 25px;
+}
+
+
+/*card image animation timimng*/
+.ludo1 {
+  transition: all 1s ease;
+}
+
+/*card image animation*/
+.ludo1:hover {
+  transform: rotateZ(-30deg);
+}
+
+/*card transition*/
+.childroot3 {
+  transition: all 1s ease;
+}
+
+/*card animation*/
+.childroot3:hover {
+  transform: scale(0.8);
+}
+
+/*media queries for responsive design for nexus mobiles */
+/*for radius  */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+  /*header  */
+  .root {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 200px;
+    padding: 1%;
+    border: 2px solid #515a5a;
+    margin: 1% auto;
+    box-shadow: 8px 5px 5px #194848;
+  }
+
+  /*first child  */
+  .childroot1 {
+    width: 90%;
+    height: 50%;
+    margin: 1% auto;
+    text-align: center;
+  }
+
+  /*second child  */
+  .childroot2 {
+    width: 90%;
+    margin: 1% auto;
+    text-align: center;
+  }
+  /*font size of header*/
+  #font {
+  font-size: 20px;
+  }
+  /*logo*/
+  img {
+    width: 40%;
+    height: 80%;
+  }
+
+  /*banner section or class of first divison*/
+  .root1 {
+    width: 92%;
+    height: 50%;
+    margin: 1% auto;
+  }
+
+  .ludo {
+    width: 100%;
+    height: 250px;
+  }
+  /*Catogories*/
+  .root3 {
+    width: 90%;
+    margin: 1% auto;
+    font-size: 30px;
+  }
+  /*second division*/
+  .root2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    border: 2px solid #515a5a;
+    padding: 1%;
+    margin: 1% auto;
+  }
+
+  /*class of second division  */
+  .childroot3 {
+    width: 90%;
+    height: 70%;
+    margin-left: 2%;
+    padding: 2%;
+  }
+/*anchor tag button  */
+  .button {
+
+    font-size: 25px;
+    background-color: #070808;
+    border-radius: 15px;
+    color: #05f9f9;
+  }
+
+  /*images of second divison*/
+  .ludo1 {
+    width: 95%;
+    height: 70%;
+  }
+}
+
+/*media queries for responsive design of ipad  */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+  /*header  */
+  .root {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 250px;
+    padding: 1%;
+    border: 2px solid #515a5a;
+    margin: 1% auto;
+    box-shadow: 8px 5px 5px #194848;
+  }
+
+  /*first child  */
+  .childroot1 {
+    width: 90%;
+    height: 50%;
+    margin: 1% auto;
+    text-align: center;
+  }
+
+  /*second child  */
+  .childroot2 {
+    width: 90%;
+    margin: 1% auto;
+    text-align: center;
+  }
+    /*font size of header*/
+  #font {
+  font-size: 30px;
+  }
+
+  /*banner section or class of first divison*/
+  .root1 {
+    width: 92%;
+    margin: 1% auto;
+  }
+
+  /*image of first division or banner*/
+  .ludo {
+    width: 100%;
+    height: 350px;
+  }
+
+  /*second division*/
+  .root2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    border: 2px solid #ffffff;
+    padding: 1%;
+    margin: 1% auto;
+    background-color: #f9e79f;
+  }
+
+  /*class of second division  */
+  .childroot3 {
+    width: 43%;
+    height: 70%;
+    margin: 1% auto;
+    padding: 2%;
+    background: #abebc6;
+  }
+
+/* anchortag button style */
+  .button {
+
+    font-size: 25px;
+    background-color: #070808;
+    border-radius: 15px;
+    color: #05f9f9;
+  }
+
+  /*images of second divison*/
+  .ludo1 {
+    width: 95%;
+    height: 250px;
+  }
+}
